@@ -35,15 +35,27 @@ let arr=[1,2,3,4,4,5,6,7,8,9]
 
 // console.log(arr1)
 
-let sum =arr.reduce((a,b,c,d)=>{
+// let sum =arr.reduce((a,b,c,d)=>{
 
-    console.log(a,"a")
-    console.log(b,"b")
+//     console.log(a,"a")
+//     console.log(b,"b")
 
-    return  a+b
+//     return  a+b
 
-    console.log(c,"c")
-    console.log(d,"d")
+//     console.log(c,"c")
+//     console.log(d,"d")
 
-},10)
-console.log(sum)
+// },10)
+// console.log(sum)
+
+let fil=arr.filter((a,b)=>{
+    return a >2
+    let fil2=arr.filter((fil)=>{
+
+    return a%2==0
+
+     })
+      console.log(fil2)
+})
+console.log(fil)
+
