@@ -24,8 +24,8 @@
 // let a= 7;
 
 
-console.log(a)
-var a=89;
+// console.log(a)
+// var a=89;
 
 
 
@@ -43,4 +43,25 @@ var a=89;
 //     inner()
 // }
 // outer()
+
+// hoisting 
+
+
+// name();
+// //  name is not a function
+//     // at first.js:50:1
+
+// var name=()=>{
+//     console.log("hiiiii")
+// };
+
+name();
+// : Cannot access 'name' before initialization
+
+let name= function(){
+
+    console.log("hiiii");
+
+}
+
 
