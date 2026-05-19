@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+  <h1>🧠 Quiz Time!</h1>
+
+
+  <div id="quizScreen">
+    <div class="top-bar">
+      <span>Score: <span id="score">0</span></span>
+      <span class="timer">⏱ <span id="timer">15</span>s</span>
+    </div>
+
+    <p class="question-num" id="questionNum">Question 1 of 5</p>
+    <h2 class="question" id="question"></h2>
+
+    <div class="options" id="options"></div>
+
+    <button id="nextBtn" onclick="nextQuestion()" disabled>Next Question</button>
+  </div>
+
+<!-- //on latter -->
+  <div id="resultScreen" class="result hide">
+    <h2>🎉 Quiz Complete!</h2>
+    <div class="final-score" id="finalScore">0 / 5</div>
+    <p id="resultMsg"></p>
+    <button id="restartBtn" onclick="restartQuiz()">Play Again</button>
+  </div>
+</div>
+
+    <script src="app.js"></script>
+    
+</body>
+</html>

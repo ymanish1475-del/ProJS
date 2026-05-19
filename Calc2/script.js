@@ -1,9 +1,28 @@
 
 
-let nlp=document.querySelector("input")
-let btn=document.querySelectorAll("button")
+// let nlp=document.querySelector("input")
+// let btn=document.querySelectorAll("button")
 
-for( let i of btn){
+// for( let i of btn){
 
-    let 
+//     let 
+// }
+
+let inp=document.querySelector("input")
+
+let buttons=document.querySelectorAll("button")
+
+for(let btn of buttons){
+    btn.addEventListener("click",()=>{
+        let btnText=btn.innerText
+        console.log(btnText)
+
+        if(btnText==="C"){
+            inp.value=""
+        }else if(btnText==="="){
+            inp.value=eval(inp.value)
+        }else{
+            inp.value+=btnText
+        }
+    })
 }

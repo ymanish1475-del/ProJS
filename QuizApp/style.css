@@ -1,0 +1,54 @@
+#box{
+    width: 400px;
+    height: 600px;
+    border: solid 2px black;
+    border-radius: 10px;
+    /* display: flex; */
+    
+
+}
+h1{
+    color: red;
+    text-align: center;
+}
+.option{
+    height: 40px;
+    width: 300px;
+    border: solid 1px black;
+    align-items: center;
+    border-radius: 5px;
+    /* margin-left: auto; */
+    margin: auto;
+    margin-left: 40px;
+}
+#score{
+    border: solid 1px black;
+    height: 40px;
+    width: 300px;
+    margin-left: 40px;
+    border-radius: 10px;
+    text-align: left;
+}
+*{
+    align-items: center;
+    align-self: center;
+    /* justify-content: cent */
+}
+#next{
+    border: solid 1px black;
+    height: 40px;
+    width: 300px;
+    margin-left: 40px;
+    margin-top: 50px;
+    background-color: blue;
+    color: wheat;
+    border-radius: 20px;
+
+}
+#Question{
+    /* height: 60px; */
+    width: 300px;
+}
+p{
+    /* text-decoration: ; */
+}
