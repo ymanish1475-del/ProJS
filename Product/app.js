@@ -18,11 +18,22 @@ fetch(url).then((res)=>{
         <h2>${a.title}</h2>
         <h2>${a.brand}</h2>
 
-        <button>add</button>
+        <button onclick="addtoCart(${a.id})">add</button>
+
 
         </div>
         `
 
     })
+    window.allP=data.products
     
 })
+console.log(window);
+
+function addtoCart(id){
+    let data= window.allP.find((a)=>{
+        return a.id==id
+    })
+    console.log(data);
+    localStorage.setItem("item",JSON.stringify(data))
+}
