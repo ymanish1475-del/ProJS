@@ -41,3 +41,10 @@ const questions = [
   window.onload = function() {
     loadQuestion();
   };
+
+  function loadQuestion(){
+    answered=false,
+    timeLeft=15,
+    
+
+  }
