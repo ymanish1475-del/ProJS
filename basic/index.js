@@ -23,15 +23,17 @@
 // // console.log(sum());
 // sum(3,4,5,7,5,8,9,)
 
-let arr=[3,5,44,3,3,4]
-let [a,b,c]=arr
-console.log([a,b,c]);
+// let arr=[3,5,44,3,3,4]
+// let [a,b,c]=arr
+// console.log([a,b,c]);
 
-let obj={
-    id:1,
-    name:"manish yadav"
-}
+// let obj={
+//     id:1,
+//     name:"manish yadav"
+// }
 
-let {id,name}=obj
+// let {id,name}=obj
 
-console.log({id,name})
+// console.log({id,name})
+
+$("h1").css("color","blue")
