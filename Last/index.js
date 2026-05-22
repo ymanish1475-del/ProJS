@@ -1,23 +1,39 @@
-let obj={
-    id:6,
-    // name:"manish yadav",
-    firstName:"manish",
-    lastName:"yadav",
-    fullName:function(city,age){
-        console.log(this.firstName+this.lastName+" "+city+" "+age);
+
+
+let user1={
+    name:"manish",
+
+    add:{
+        city:"jabalpur"
     }
-
 }
 
-let userOne={
-    id:10,
-    firstName:"cockroch",
-    lastName:"janta party",
+let user2=structuredClone(user1)  ///deep copy
+let user2=(user1)                 //shalow copy
+user2.add.city="banaras";
 
-}
+console.log(user1.add.city);
+console.log(user2.add.city);
+// let obj={
+//     id:6,
+//     // name:"manish yadav",
+//     firstName:"manish",
+//     lastName:"yadav",
+//     fullName:function(city,age){
+//         console.log(this.firstName+this.lastName+" "+city+" "+age);
+//     }
 
-// obj.fullName.call(userOne);
-obj.fullName.apply(userOne,["delhi",4]);
+// }
+
+// let userOne={
+//     id:10,
+//     firstName:"cockroch",
+//     lastName:"janta party",
+
+// }
+
+// // obj.fullName.call(userOne);
+// obj.fullName.apply(userOne,["delhi",4]);
 
 // const questions = [
 //     {
