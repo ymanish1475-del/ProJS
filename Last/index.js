@@ -1,20 +1,34 @@
 
 
-let user1={
-    name:"manish",
+let str="javascript   "
 
-    add:{
-        city:"jabalpur"
-    }
-}
+console.log(str.length);
+console.log(str.trim());
+console.log(str.toLowerCase);
+console.log(str.toUpperCase);
+console.log(str.includes("i"));    //search karta hea
+console.log(str.indexOf("p"));
+console.log(str.substring(1,4),"substring");   //kanha se kanha tak
+console.log(str.substr(1,4),"substr");  //kanha se kitna 
+console.log(str.split("a"));
 
-let user2=structuredClone(user1)  ///deep copy
-let user2=(user1)                 //shalow copy
-user2.add.city="banaras";
 
-console.log(user1.add.city);
-console.log(user2.add.city);
-// let obj={
+
+// let user1={
+//     name:"manish",
+
+//     add:{
+//         city:"jabalpur"
+//     }
+// }
+
+// let user2=structuredClone(user1)  ///deep copy
+// let user2=(user1)                 //shalow copy
+// user2.add.city="banaras";
+
+// console.log(user1.add.city);
+// console.log(user2.add.city);
+// // let obj={
 //     id:6,
 //     // name:"manish yadav",
 //     firstName:"manish",
